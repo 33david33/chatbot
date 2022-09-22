@@ -27,6 +27,15 @@ const useStyles = makeStyles(() => ({
     boxShadow: '-3px -3px 10px #666666',
     padding: '0',
     backgroundColor: '#fff',
+    height: '80vh',
+    width: '30vw',
+    '@media (max-width:1100px)': {
+      width: '40vw',
+    },
+    '@media (max-width:780px)': {
+      width: '100%',
+      height: '100vh',
+    },
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -65,8 +74,6 @@ const AppDefaultLayout = (): JSX.Element => {
       {isChatOpen && (
         <Zoom in>
           <Box
-            height="80vh"
-            width="30vw"
             display="flex"
             flexDirection="column"
             className={classes.chatbotContainer}
