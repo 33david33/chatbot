@@ -30,7 +30,7 @@ app.use(
 
 /** Logger */
 if (process.env.NODE_ENV !== 'test') {
-  // app.use(expressLogger);
+  app.use(expressLogger);
 }
 
 /** Rules for the BFF */
