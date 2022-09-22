@@ -1,0 +1,9 @@
+{
+  "title": "Versicherungschat",
+  "chatbotIsLoading": "Chat wird vorbereitet...",
+  "startStatusMessage": "Guten Tag, mein Name ist Rob. Wie darf ich Ihnen helfen?",
+  "startChat": "Hi, chat mit mir!",
+  "iAmNotSmartEnough": "Es tut mir leid, ich kann das leider noch nicht interpretieren :-(",
+  "endMessage": "Herzlichen Dank für Ihre Angaben!",
+  "needHelp": "Neu Versicherung?"
+}

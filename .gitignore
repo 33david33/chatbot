@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/testdata
+/setupTestData/node_modules
+/stress-tests
+
+# production
+/build
+/dist
+/data
+
+# IDEs
+.vscode
+.idea
+*.iml
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!setupTestData/.env
+junit.xml
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

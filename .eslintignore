@@ -1,0 +1,7 @@
+/webpack
+/src/frontend/public
+/src/bff/swagger.json
+/node_modules
+/src/bff/tests
+/src/frontend/tests
+/setupTestData
