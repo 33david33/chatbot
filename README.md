@@ -16,3 +16,8 @@ Warning: settings in this project should not be used in production. This is just
 1. install pm2 (global: `npm i -g pm2` or `yarn global add pm2`
 2. `npm run build` (`yarn build`)
 3. `npm run start` (`yarn start`)
+
+## Remarks
+
+1. Altough I used i18n for intl, I didn't tanslate it yet (just german). However json files are there.
+2. More tests need to be implemented.
